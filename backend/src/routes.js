@@ -7,7 +7,7 @@ routes.post('/users', (request, response) => {
     
     console.log(body);
     
-    return response.json ({
+    return response.json({
         evento: 'Semana OmniStack11',
         aluno: 'Victor Antonio Alves'
     });
