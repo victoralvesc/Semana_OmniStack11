@@ -110,20 +110,33 @@ npm install nodemon -D
 ----------------------------------------------------------------------------
 Instalando Pacote de banco de dados para NODE
 
-#instalando o Knes - http://knexjs.org/
+->instalando o Knes - http://knexjs.org/
 
 npm install knex
 
-#instalando o banco: Sqlite
+->instalando o banco: Sqlite
 
 npm install sqlite3
 
-#instalando as migrations http://knexjs.org/#Migrations (migrações - é uma fora de criar tabela e manter um historioco das tabelas que foram criadas, como um controle de versões de banco )
+->instalando as migrations http://knexjs.org/#Migrations (migrações - é uma fora de criar tabela e manter um historioco das tabelas que foram criadas, como um controle de versões de banco )
 Obs: lembrando que nome "create_ongs" é o nome do projeto
 
-#npx knex migrate:make create_ongs
+npx knex migrate:make create_ongs
+
+->Criar a tabela
+
+npx knex migrate:latest
+
+->Fazendo rollback da tabela
+
+npx knex migrate:rollback
+
+->Listar todas as tableas criadas
+
+npx knex migrate:status
 
 
+----------------------------------------------------------------------------
 
 
 
