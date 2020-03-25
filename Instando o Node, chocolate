@@ -98,5 +98,23 @@ Instalando pacote NODEMON(restarta o servidor automaticamente sem precisar para 
 npm install nodemon -D
 
 
+----------------------------------------------------------------------------
+/* 
+*SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+*NoSQL: MongoDB, CouchDB, etc
+*/
 
+*Driver: SELECT * FROM user
+*Query Builder: table('users').select('*').where()
+
+----------------------------------------------------------------------------
+Instalando Pacote de banco de dados para NODE
+
+#instalando o Knes - http://knexjs.org/
+
+npm install knex
+
+#instalando o banco: Sqlite
+
+npm install sqlite3
 
