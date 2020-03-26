@@ -7,9 +7,19 @@ module.exports = {
         const [count] = await connection('incidents').count(); /* Mostra a quantidad de casos cadastrados*/
 
         const incidents = await connection('incidents')
+        .join('ongs', 'ongs.id', '=', 'incidents.ong_id')
         .limit(5)
         .offset((page -1) * 5)
-        .select('*'); /* Fim do esquema de Paginação*/
+        .select(['incidents.*',
+            'ongs.name',
+            'ongs.email',
+            'ongs.whatsapp',
+            'ongs.city',
+            'ongs.uf'
+        ]); 
+        /* Fim do esquema de Paginação*/
+
+        response.header('X-Total-Count', count ['count(*)']);
         
         return response.json(incidents);      
     },
