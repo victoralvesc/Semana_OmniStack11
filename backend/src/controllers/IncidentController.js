@@ -2,7 +2,14 @@ const connection = require('../database/connection');
 
 module.exports = {
     async index (request, response) {
-        const incidents = await connection('incidents').select('*');
+        const { page = 1 } = request.query /* Esquema de Paginação*/
+
+        const [count] = await connection('incidents').count(); /* Mostra a quantidad de casos cadastrados*/
+
+        const incidents = await connection('incidents')
+        .limit(5)
+        .offset((page -1) * 5)
+        .select('*'); /* Fim do esquema de Paginação*/
         
         return response.json(incidents);      
     },
