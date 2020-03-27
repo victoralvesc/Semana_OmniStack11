@@ -118,7 +118,7 @@ npm install knex
 
 npm install sqlite3
 
-->instalando as migrations http://knexjs.org/#Migrations (migrações - é uma fora de criar tabela e manter um historioco das tabelas que foram criadas, como um controle de versões de banco )
+->instalando as migrations http://knexjs.org/#Migrations (migrações - é uma forma de criar tabela e manter um historioco das tabelas que foram criadas, como um controle de versões de banco )
 Obs: lembrando que nome "create_ongs" é o nome do projeto
 
 npx knex migrate:make create_ongs
@@ -159,7 +159,7 @@ npm install react-icons
 
 
 
-VOLTA 38:40
+VOLTA 43:49 video aula 3
 
 
 
