@@ -1,12 +1,13 @@
 import React from 'react';
 
-//JSX (Javascript XML)
+import Logon from './pages/logon';
 
 function App() {
-    return (
-        <h1>Hello Word</h1>
+      return (
+    <div>   
+     <Logon />
+    </div>
     );
-
 }
 
 export default App;
