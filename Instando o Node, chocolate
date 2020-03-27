@@ -138,14 +138,23 @@ npx knex migrate:status
 
 ----------------------------------------------------------------------------
 
-VOLTA 1:04:27
+->instalando modulo CORS - É ele vai determinar quem é que pode acessar essa nossa aplicação.
+
+npm install cors
+
+----------------------------------------------------------------------------
 
 
+-> PACOTE DE ICONES A SER USADOS FAMOSOS
 
+#material icons
+#font awesome
+#feather icons
 
+-> Instalando os pacotes de todos os icones para react
 
-
-
+npm install react-icons
+----------------------------------------------------------------------------
 
 
 
