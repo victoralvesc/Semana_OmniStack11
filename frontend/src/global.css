@@ -20,3 +20,35 @@ input, buton, textara {
 button {
     cursor: pointer;
 }
+
+form input {
+    width: 100%; /*Largura da barra de texto "Informe seu ID" em 100%*/
+    height: 60px; /*Altura da barra de texto "Informe seu ID"*/
+    color:#333; /*Cor do texto "Informe seu ID"*/
+    border: 1px solid #dcdce6; /* Borda da barra de texto ficou como na cor informada"*/
+    border-radius: 8px;/* As extremidades da borda da barra de texto "CURVADA"*/
+    padding: 0, 24px  /* Tamanho do quadro em branco dentro da borda da barra de texto "Informe seu ID"*/
+}
+
+.button {
+    width: 100%; /*Largura da barra de texto "Informe seu ID" em 100%*/
+    height: 60px; /*Altura da barra de texto "Informe seu ID"*/
+    background: #e02041 ;
+    border: 0; /* Borda da barra de ENTRAR ficou alinhado e na cor informada"*/
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700 ; /*tamanho da plavra ENTRAR e em negrito*/
+    margin-top: 16px;/* distancia o botão ENTRAR com a barra de texto "Informe seu ID"*/
+    display: inline-block;
+    text-align: center;
+    text-decoration: none; 
+    font-size: 18px; /* tamanho da letra "ENTRAR"*/
+    line-height: 60px;
+    transition: filter 0.12s;/* O tempo indicado para quando passar o mouse em cima do ENTRAR a cor mudar ele demorar um pouco*/
+}
+
+.button:hover {
+    filter: brightness(90%); /*Quando passar o mouse por cima da palavra ENTRAR vai escurecer a cor do texto*/
+
+}
+

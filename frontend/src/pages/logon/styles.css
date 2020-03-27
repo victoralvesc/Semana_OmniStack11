@@ -11,7 +11,7 @@
 
 .Logon-container section.form {
     width: 100%; /*Largura de 100%*/
-    max-width: 350px; /*Largura maxima de 1120px*/
+    max-width: 350px; /*Largura maxima de 350px*/
     margin-right: 30px; /*Distancia a imagem BeTheHero da imagem Hero*/
 }
 
@@ -22,4 +22,24 @@
 .Logon-container section.form form h1 {
     font-size: 32px; /*Aumenta o tamanho da letra "Faça seu Logon"*/
     margin-bottom: 32px; /* Está distanciando a combo "Informe seu ID" da frase "Faça seu Logon"*/ 
+}
+
+.Logon-container section.form form a {  
+    display: flex; /* Ajustar o texto "Não tenho Cadastro" com a imagem - alinhamento*/
+    align-items: center; /* Ajustar FiLogIn - alinhamento com o texto "Não tenho Cadastro" */
+    margin-top: 40px;  /* Está distanciando o texto "Não tenho Cadastro" do botao "ENTRAR*/  
+    color: #41414d; /*Cor do texto "Não tenho Cadastro" */
+    font-size: 18px;  /*Aumenta o tamanho da letra "Não tenho Cadastro"*/
+    text-decoration: none; /*Tirou o sublinhado abaixo do "Não tenho cadastro"*/
+    font-weight: 500; /*Colocou a fonte ""Não tenho Cadastro" menor do que se estivesse em negrito */
+    transition: opacity 0.12s; /* O tempo indicado para quando passar o mouse em cima do "Não tenho Cadastro"* a cor mudar ele demorar um pouco*/
+}
+
+.Logon-container section.form form a svg {
+    margin-right: 8px; /* Está distanciando o icone " FiLogIn" do texto "Não tenho Cadastro" */
+}
+
+.Logon-container section.form form a:hover{
+    opacity: 0.8; /*Quando passar o mouse por cima do "Não tenho Cadastro" vai escurecer a cor do texto*/
+    
 }
