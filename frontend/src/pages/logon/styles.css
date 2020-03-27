@@ -16,5 +16,10 @@
 }
 
 .Logon-container section.form form {
-    
+    margin-top: 100px; /* Está distanciando o texto "Faça seu Logon" da imagem BeTheHero*/  
 }   
+
+.Logon-container section.form form h1 {
+    font-size: 32px; /*Aumenta o tamanho da letra "Faça seu Logon"*/
+    margin-bottom: 32px; /* Está distanciando a combo "Informe seu ID" da frase "Faça seu Logon"*/ 
+}
