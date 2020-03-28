@@ -144,8 +144,7 @@ npm install cors
 
 ----------------------------------------------------------------------------
 
-
--> PACOTE DE ICONES A SER USADOS FAMOSOS
+-> PACOTE DE ICONES - IMAGEM A SER USADOS "FAMOSOS"
 
 #material icons
 #font awesome
@@ -156,6 +155,9 @@ npm install cors
 npm install react-icons
 ----------------------------------------------------------------------------
 
+-> PACOTE DE INSTALAÇÃO PARA CONFIGURAÇÃO DE ROTAS
+
+npm install react-router-dom
 
 
 
